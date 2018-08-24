@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" id="WebApp_ID" version="3.1">
+  <servlet>
+    <servlet-name>UserSigninServlet</servlet-name>
+    <servlet-class>com.servlet.UserSigninServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>UserSignupServlet</servlet-name>
+    <servlet-class>com.servlet.UserSignupServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>FindMedyServlet</servlet-name>
+    <servlet-class>com.servlet.FindMedyServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>FindMedyoneinfoServlet</servlet-name>
+    <servlet-class>com.servlet.FindMedyoneinfoServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>BuyDrugsServlet</servlet-name>
+    <servlet-class>com.servlet.BuyDrugsServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>MylistServlet</servlet-name>
+    <servlet-class>com.servlet.MylistServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>MoneylistServlet</servlet-name>
+    <servlet-class>com.servlet.MoneylistServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>InsertMedyServlet</servlet-name>
+    <servlet-class>com.servlet.InsertMedyServlet</servlet-class>
+  </servlet>
+  
+  
+  <servlet-mapping>
+    <servlet-name>UserSigninServlet</servlet-name>
+    <url-pattern>/usersignin.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UserSignupServlet</servlet-name>
+    <url-pattern>/usersignup.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>FindMedyServlet</servlet-name>
+    <url-pattern>/findmedy.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>FindMedyoneinfoServlet</servlet-name>
+    <url-pattern>/seemedyinfo.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>BuyDrugsServlet</servlet-name>
+    <url-pattern>/buydrugs.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>MylistServlet</servlet-name>
+    <url-pattern>/mylist.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>MoneylistServlet</servlet-name>
+    <url-pattern>/moneymoney.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>InsertMedyServlet</servlet-name>
+    <url-pattern>/insertmedy.do</url-pattern>
+  </servlet-mapping>
+  
+</web-app>

@@ -1,0 +1,106 @@
+body{
+    font: "lucida Grande",Verdana,"Microsoft YaHei";
+}
+.header{
+    overflow: hidden;
+    left:0;
+    right:0;
+    height:60px;
+    background: rgba(200, 252, 253, 0.4);
+    border-bottom:1px solid rgb(150, 255, 255);
+}
+.logo{
+    float:left;
+    width:200px;
+    height:60px;
+    text-align: center;
+    line-height: 60px;
+    font-family: "Courier";
+    font-size: 45px;
+    color:#000;
+    /*background-image: url("/../Medy/img/logo.png");*/
+}
+.wrapper{
+    margin:50px auto;
+    width: 350px;
+}
+.signup-box{
+    position: fixed;
+    width: 350px;
+    height: 400px;
+    border: 1px solid rgb(0, 255, 255);
+    border-radius:4px;
+}
+.signup-box-head{
+    width: 350px;
+    height: 60px;
+    background: rgb(220, 255, 255);
+    font-size: 20px;
+    color: rgb(48, 48, 48);
+    text-align: center;
+    display: table-cell;
+    vertical-align:middle;
+    border-bottom:1px solid rgb(0, 255, 255);
+}
+.signup-box-center{
+    width: 350px;
+    height: 350px;
+    text-align: center;
+}
+.input-box{
+    margin:10px 0 0 0;
+    padding-left:10px;
+    width:250px;
+    height: 32px;
+    font-size: 16px;
+    color:#aaa;
+    border: 1px solid #aaa;
+    border-radius: 2px;
+}
+#input-box-name-type-one{
+	color:#000;
+}
+#input-box-name-type-two{
+	color:red;
+	border: 1px solid red;
+}
+#input-box-pass-type-one{
+	color:#000;
+}
+#input-box-pass-type-two{
+	color:red;
+	border: 1px solid red;
+}
+#input-box-checkpass-type-one{
+	color:#000;
+}
+#input-box-checkpass-type-two{
+	color:red;
+	border: 1px solid red;
+}
+#select-box{
+    margin:10px 0 0 0;
+    padding-left:10px;
+    width:190px;
+    height: 32px;
+    font-size: 16px;
+    border: 1px solid #aaa;
+    border-radius: 2px;
+}
+.submit-box{
+    margin:35px 0 0 0;
+    width:260px;
+    height:38px;
+    font-size:20px;
+    color: #fff;
+    text-align: center;
+    display: table-cell;
+    vertical-align:middle;
+    background:  rgba(0, 119, 255, 0.774);
+    border:none;
+    border-radius: 2px;
+}
+.submit-box:hover{
+    background:  rgba(0, 174, 255, 0.753);
+    cursor: pointer;
+}

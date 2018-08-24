@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Medysignup</title>
+    <link rel="stylesheet" type="text/css" href="css/common.css" />
+    <link rel="stylesheet" type="text/css" href="css/Medysignup.css" />
+</head>
+<body>
+    <div class="header">
+        <a href="MedyMain.html">
+            <div class="logo">Medy</div>
+        </a>
+    </div>
+    <div class="wrapper">
+        <div class="signup-box">
+            <div class="signup-box-head">用户注册</div>
+            <div class="signup-box-center" id="signup-box-center">
+                <form action="/../Medy/usersignup.do?method=signup" method="post">
+                    <input class="input-box" v-bind:id="inputBoxNameId" type="text" style="margin:40px 0 0 0px;" name="username"
+                        v-bind:value="name" v-on:focus="funcNameF" v-on:blur="funcNameB" ref="refName" /><br>
+                    <input class="input-box" v-bind:id="inputBoxPassId" v-bind:type="passtype" name="password"
+                        v-bind:value="pass" v-on:focus="funcPassF" v-on:blur="funcPassB" ref="refPass" /><br>
+                    <input class="input-box" v-bind:id="inputBoxCheckPassId" v-bind:type="checkpasstype"
+                        v-bind:value="checkpass" v-on:focus="funcCheckPassF" v-on:blur="funcCheckPassB" ref="refCheckPass" /><br>
+                    <font>注册身份:</font>
+                    <select id="select-box" name="ability" ref="abi" v-on:blur="funcAbi">
+                        <option value="--请选择--">--请选择--</option>
+                        <option value="user">个人</option>
+                        <option value="enterprise">企业</option>
+                    </select><br>
+                    <input class="submit-box" type="submit" v-bind:value="check" ref="btn" onclick ="alert('请输入正确信息！');return false;" /><br>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <p>版权所有：吴睿凌   联系电话：13163370773</p>
+        <p>本项目仅用于测试，禁止用于商业用途</p>
+    </div>
+    <script src="js/vue.min.js"></script>
+    <script src="js/Medysignup.js"></script>
+</body>
+</html>

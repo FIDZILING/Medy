@@ -1,0 +1,82 @@
+.header{
+	position:fixed;
+	top:0px;
+    overflow: hidden;
+    left:0;
+    right:0;
+    height:60px;
+    background: rgb(200, 252, 253);
+    border-bottom:1px solid rgb(150, 255, 255);
+}
+.logo{
+    float:left;
+    width:200px;
+    height:60px;
+    text-align: center;
+    line-height: 60px;
+    font-family: "Courier";
+    font-size: 45px;
+    color:#000;
+    /*background-image: url("/../Medy/img/logo.png");*/
+}
+.welcome{
+    margin-left: 1200px;
+    width:150px;
+    height:60px;
+    text-align: center;
+    line-height:60px;
+    font-size: 18px;
+    color:#000;
+}
+.wrapper{
+	margin: 50px auto;
+}
+#insert{
+	margin:100px auto;
+	width: 700px;
+}
+.fontt{
+	font-size:18px;
+}
+.input-box{
+	margin:10px 0 0 0;
+    padding-left:10px;
+    width:200px;
+    height: 32px;
+    font-size: 16px;
+    color:#000;
+    border: 1px solid #aaa;
+    border-radius: 2px;
+}
+.input-box:focus{
+	border: 1px solid blue;
+}
+.big-box{
+	margin:10px 0 0 0;
+	padding:10px;
+	width:515px;
+	font-size: 16px;
+	color:#000;
+    border: 1px solid #aaa;
+    border-radius: 2px;
+}
+.big-box:focus{
+	border: 1px solid blue;
+}
+.btn-box{
+    margin:35px 0 0 0;
+    width:260px;
+    height:38px;
+    font-size:20px;
+    color: #fff;
+    text-align: center;
+    display: table-cell;
+    vertical-align:middle;
+    background:  rgba(0, 119, 255, 0.774);
+    border:none;
+    border-radius: 2px;
+}
+.btn-box:hover{
+    background:  rgba(0, 174, 255, 0.753);
+    cursor: pointer;
+}

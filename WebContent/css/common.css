@@ -1,0 +1,63 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+a:link {
+	text-decoration: none;
+	color: rgb(93, 169, 255);
+}
+a:visited{
+    text-decoration: none;
+	color: rgb(93, 169, 255);
+}
+a:hover {
+	text-decoration: none;
+	color: rgb(0, 0, 255);
+	cursor: pointer;
+}
+a:active {
+	text-decoration: none;
+	color: rgb(255, 0, 0);
+	cursor: pointer;
+}
+/* Border styles */
+#find-box-table thead, #find-box-table tr {
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: rgb(137, 243, 247);
+}
+
+#find-box-table {
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: rgb(137, 243, 247);
+}
+
+/* Padding and font style */
+#find-box-table td, #find-box-table th {
+	padding: 5px 10px;
+	font-family: Verdana;
+	text-align:center;
+	color: rgb(0, 0, 0);
+}
+
+/* Alternating background colors */
+#find-box-table tr:nth-child(even) {
+	background: rgb(140, 255, 255)
+}
+
+#find-box-table tr:nth-child(odd) {
+	background: rgb(255, 217, 217)
+}
+.footer{
+	position:fixed;
+	left:0;
+	right:0;
+	bottom:0;
+	height: 42px;
+	background-color: rgba(200, 252, 253, 0.4);
+	text-align: center;
+	font-family:Verdana,"Microsoft YaHei";
+	color:#868686;
+	border-top:1px solid rgb(150, 255, 255);
+}

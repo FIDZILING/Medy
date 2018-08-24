@@ -1,0 +1,145 @@
+ul{
+	list-style:none;
+}
+li{
+	margin:10px 0 10px 0px;
+}
+.header{
+	position:fixed;
+	top:0px;
+    overflow: hidden;
+    left:0;
+    right:0;
+    height:60px;
+    background: rgb(200, 252, 253);
+    border-bottom:1px solid rgb(150, 255, 255);
+}
+.logo{
+    float:left;
+    width:200px;
+    height:60px;
+    text-align: center;
+    line-height: 60px;
+    font-family: "Courier";
+    font-size: 45px;
+    color:#000;
+    /*background-image: url("/../Medy/img/logo.png");*/
+}
+.welcome{
+    margin-left: 1200px;
+    width:150px;
+    height:60px;
+    text-align: center;
+    line-height:60px;
+    font-size: 18px;
+    color:#000;
+}
+.userinfo-type-one{
+	display:none;
+}
+.userinfo-type-two{
+	display:block;
+}
+#userul{
+	width: 150px;
+    height: 130px;
+    position: fixed;
+    margin: -5px 0 0 1225px;
+    background: #ddd;
+    color: #000;
+    z-index: 99;
+    font-size: 15px;
+    border:0px solid #eee;
+    border-radius: 2px;
+}
+.userli{
+	text-align:center;
+}
+.userli:hover{
+	background:#eee;
+	cursor:pointer;
+}
+.wrapper{
+	margin: 50px auto;
+	width:auto;
+	height:680px;
+}
+.type-of-medy{
+	float:left;
+	padding: 50px 0 0 50px;
+	margin:10px 0 0 0;
+	width:300px;
+	height:1200px;
+	font-size:15px;
+	overflow:scroll;
+	overflow-x:hidden;
+}
+.classbeforeclick{
+	cursor: pointer;
+    margin: 10px 0 10px 0;
+    font-size: 15px;
+    font-weight:bold;
+    color: black;
+}
+.classafterclick{
+	cursor: pointer;
+    margin: 10px 0 10px 10px;
+    font-size: 18px;
+    font-weight:bold;
+    color: rgb(93, 169, 255);
+}
+.classcheckdown{
+	display:none;
+	cursor: pointer;
+	font-size: 15px;
+}
+.classcheckon{
+	margin: 10px 0 10px 60px;
+	width:auto;
+	display:block;
+	cursor: pointer;
+	color:black;
+	font-size: 15px;
+}
+.medy-main{
+    margin: 55px 0 0 500px;
+	width:auto;
+	height:auto;
+}
+
+.medy-info{
+	margin:50px 0 0 0;
+}
+.medy-info-box{
+	margin:0 0 0 500px;
+	width:800px;
+	height:850px;
+	overflow-x: hidden;
+}
+
+.input-num{
+	margin:50px 0 0 0;
+    width:135px;
+    height: 32px;
+    font-size: 16px;
+    color:#000;
+    border: 1px solid #aaa;
+    border-radius: 2px;
+}
+.btn-check-buy{
+	margin:20px 0 0 50px;
+    width:200px;
+    height:38px;
+    font-size:20px;
+    color: #fff;
+    text-align: center;
+    display: table-cell;
+    vertical-align:middle;
+    background:  rgba(0, 119, 255, 0.774);
+    border:none;
+    border-radius: 2px;
+}
+.btn-check-buy:hover{
+	background:  rgba(0, 174, 255, 0.753);
+    cursor: pointer;
+}

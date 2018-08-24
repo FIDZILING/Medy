@@ -1,0 +1,36 @@
+.header{
+	position:fixed;
+	top:0px;
+    overflow: hidden;
+    left:0;
+    right:0;
+    height:60px;
+    background: rgb(200, 252, 253);
+    border-bottom:1px solid rgb(150, 255, 255);
+}
+.logo{
+    float:left;
+    width:200px;
+    height:60px;
+    text-align: center;
+    line-height: 60px;
+    font-family: "Courier";
+    font-size: 45px;
+    color:#000;
+    /*background-image: url("/../Medy/img/logo.png");*/
+}
+.welcome{
+    margin-left: 1200px;
+    width:150px;
+    height:60px;
+    text-align: center;
+    line-height:60px;
+    font-size: 18px;
+    color:#000;
+}
+.wrapper{
+	margin: 50px auto;
+}
+#find-box-table{
+	margin:100px auto;
+}
